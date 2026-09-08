@@ -195,16 +195,34 @@ footer {
     margin-bottom: 20px;
 }
 
+#inicio .descripcion-inicio {
+    max-width: 650px;
+}
+
 .acciones-inicio {
     display: flex;
     gap: 15px;
     flex-wrap: wrap;
 }
 
-.acciones-inicio a {
-    display: inline-block;
+#inicio .acciones-inicio a {
     padding: 12px 22px;
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
+}
+
+.btn-principal {
+    background-color: #38bdf8;
+    color: #0f172a;
+}
+
+#inicio .btn-secundario {
+    background-color: transparent;
+    color: #38bdf8;
+    border: 1px solid #38bdf8;
+}
+
+#inicio .acciones-inicio a:hover {
+    transform: translateY(-3px);
 }
