@@ -160,7 +160,89 @@ footer {
     color: #94a3b8;
 }
 
+
+/* ========================================
+   DETALLE DE PROYECTOS
+======================================== */
+
+.detalle-proyecto {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 50px 20px 80px;
+}
+
+.volver {
+    display: inline-block;
+    margin-bottom: 50px;
+    color: #94a3b8;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.volver:hover {
+    color: #38bdf8;
+}
+
+.proyecto-hero {
+    min-height: auto;
+    padding: 30px 0 80px;
+}
+
+.proyecto-hero h1 {
+    max-width: 850px;
+    margin: 15px 0 20px;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+
+.proyecto-hero > p {
+    max-width: 750px;
+    font-size: 1.15rem;
+    color: #94a3b8;
+}
+
+.proyecto-seccion {
+    min-height: auto;
+    padding: 70px 0;
+    border-top: 1px solid #334155;
+}
+
+.proyecto-seccion h2 {
+    margin-bottom: 20px;
+}
+
+.proyecto-seccion p {
+    max-width: 850px;
+    margin-bottom: 18px;
+    color: #cbd5e1;
+    font-size: 1.05rem;
+}
+
+.captura-proyecto {
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+    border-radius: 12px;
+    border: 1px solid #334155;
+}
+
+.volver-final {
+    padding-top: 40px;
+}
+
 @media (max-width: 768px) {
+
+.proyecto-hero h1 {
+    font-size: 2.2rem;
+}
+
+.detalle-proyecto {
+    padding-top: 30px;
+}
+
+.proyecto-seccion {
+    padding: 50px 0;
+}
 
     nav {
         flex-direction: column;
@@ -309,3 +391,5 @@ footer {
     background-color: #38bdf8;
     color: #0f172a;
 }
+
+
