@@ -293,6 +293,81 @@ footer {
 }
 
 
+/* ========================================
+   EXPERIENCIA Y EDUCACIÓN
+======================================== */
+
+.timeline {
+    position: relative;
+    max-width: 850px;
+    padding-left: 30px;
+    border-left: 2px solid #334155;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: -38px;
+    top: 7px;
+
+    width: 14px;
+    height: 14px;
+
+    background-color: #38bdf8;
+    border-radius: 50%;
+}
+
+.timeline-fecha {
+    display: inline-block;
+    margin-bottom: 8px;
+
+    color: #38bdf8;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.timeline-item h3,
+.educacion-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+}
+
+.timeline-cargo {
+    color: #cbd5e1;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.timeline-item > p:not(.timeline-cargo),
+.educacion-card > p:not(.timeline-cargo) {
+    color: #94a3b8;
+    max-width: 750px;
+}
+
+.timeline-item ul {
+    margin-top: 15px;
+    padding-left: 20px;
+    color: #cbd5e1;
+}
+
+.timeline-item li {
+    margin-bottom: 7px;
+}
+
+.educacion-card {
+    max-width: 850px;
+    padding: 30px;
+
+    background-color: #1e293b;
+    border-radius: 12px;
+}
+
+
 @media (max-width: 768px) {
 
 .proyecto-hero h1 {
